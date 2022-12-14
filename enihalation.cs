@@ -161,7 +161,7 @@ namespace Enihalation
         }
         static void Main(string[] args)
         {
-            Console.Title = "Bomber by 413D3Z";
+            Console.Title = "Email Capacity Tester by 413D3Z";
             Console.WriteLine(getTime() + " Looking for [senders.txt | message.txt] ...", Color.LightGreen);
             scanData();
             Thread.Sleep(250);
