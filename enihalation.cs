@@ -175,7 +175,7 @@ namespace Enihalation
             targetEmail = Console.ReadLine();
             Thread.Sleep(1000);
             Console.Clear();
-            Console.Title = "[" + targetEmail + "] Bomber by 413D3Z | Emails sent: 0";
+            Console.Title = "[" + targetEmail + "] Email Capacity Tester by 413D3Z | Emails sent: 0";
             initializeBomber();
             Console.ReadKey();
         }
